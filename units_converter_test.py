@@ -12,3 +12,4 @@ def describe_a_units_converter():
     Test the mpg2kpl function
     """
     assert mpg2kpl(30) == 12.7543
+    assert mpg2kpl(10) == 4.25144
